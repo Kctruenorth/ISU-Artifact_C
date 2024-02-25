@@ -88,7 +88,7 @@
     
     #Pract{
       position:absolute;
-      top:1150px;
+      top:1180px;
       left:780px;
     }
     
@@ -99,7 +99,7 @@
     
     #Image3{
       position:absolute;
-      top:2110px;
+      top:2550px;
       left:800px;
       height:190px;
       border:3px solid red;
@@ -107,9 +107,9 @@
     
     #Image4{
       position:absolute;
-      top:3215px;
-      left:720px;
-      height:250px;
+      top:1645px;
+      left:710px;
+      height:225px;
       border:3px solid red;
       
     }
@@ -129,8 +129,13 @@
   padding: 20px;
 }
 
+#proportions{
+  background-color:#f1fff1;
+  padding: 20px;
+}
+
 #code {
-  background-color: rgb(190, 200, 200);
+  background-color: #dfd3c3;
   padding: 20px;
 }
 
@@ -210,7 +215,7 @@ h2 mark{
 <body>
   <div id="container" style="border-top: 3px solid red; ">
     <header>
-     <a href="https://kctruenorth.github.io/ISU-Artifact_A/" id="link-button">Artifact A</a>
+       <a href="https://kctruenorth.github.io/ISU-Artifact_A/" id="link-button">Artifact A</a>
     <a href="https://kctruenorth.github.io/ISU-Artifact_B/" id="link-buttonB">Artifact B</a>
     <a href = "https://kctruenorth.github.io/ISU-Artifact_C/" id="link-buttonC">Artifact C</a>
       <div id="Front">
@@ -224,6 +229,7 @@ h2 mark{
             <li><a href="#budgets">Budgets </a></li>
             <li><a href="#appreciation">Appreciation and Depreciation</a></li>
             <li><a href="#interest">Interest and Rates</a></li>
+            <li><a href="#proportions">Proportions</a></li>
             <li><a href="#code">Interactive Code</a></li>
           </ul>
         </div>
@@ -252,7 +258,7 @@ h2 mark{
     
       
   <table id="IncomeTable1" border="1">
-    <caption>2023 Federal Income Tax Brackets and Rates</caption>
+    <caption>2024 Federal Income Tax Brackets and Rates</caption>
     <thead>
       <tr>
         <th>Tax Rate</th>
@@ -284,7 +290,7 @@ h2 mark{
   </table>
   
    <table id="IncomeTable2" border="1">
-    <caption>2023 Ontario Income Tax Brackets and Rates</caption>
+    <caption>2024 Ontario Income Tax Brackets and Rates</caption>
     <thead>
       <tr>
         <th>Tax Rate</th>
@@ -327,11 +333,12 @@ h2 mark{
       
       <li><mark><strong>Formulas </strong>for the <strong>Functions</strong></mark></li><ol><li>For both<ul><em><li>Linear growth: f(x) = mx+b</li> <li>Exponential growth: f(x) = a(1+r)^x</li></em></ul></li><li>Differences:<ul><li>Appreciation => m > 1 & 1+r > 1.</li><li>Depreciation => m < 1 & 1+r < 1.</li></ul></li></ol><br>
       
-      <li><mark><strong>Application</strong> with <strong>Percentages</strong></mark></li><ul><li><em>In <strong>real life</strong> situations (e.g. Interest), the rate is given in a percentage</em></li><li>Calculations require percentages to be converted into decimals</li></ul>
+      <li><mark><strong>Application</strong> with <strong>Percentages</strong></mark></li><ul><li><em>In <strong>real life</strong> situations (e.g. Interest), the rate is given in a percentage per unit of time</em></li><li>Calculations require percentages to be converted into decimals</li></ul>
       </ol>
       <div id="Pract">
       <h2 id="Practice"><mark>Practice:</mark></h2><ol><li><strong>What details can you read from this graph:</strong></li></ol>
       <a href="https://www.online-python.com/UG9XZEbuW3" target="blank"><img id="Image2" src="Screenshot 2024-01-30 8.35.26 PM.png"></a>
+      
       <a href="https://www.online-python.com/UG9XZEbuW3" target="blank"><p style="text-decoration:none;
   color:green;">Click here to start</p></a>
        
@@ -359,13 +366,25 @@ h2 mark{
           <a href="https://www.online-python.com/95cxgEfhow" target="_blank">Check out this program that calculates both compound and simple interest</a>
         </ul><br>
         
+        <img src="https://www.quicken.com/sites/default/files/QuickenCompoundSimpleInterest.jpg" id="Image4">
+        
+      </section>
+      
+      
+      <section id="proportions">
+        <h2><mark>How to Use Proportions for Budgeting</mark></h2>
+        <p><strong>Proportions</strong> can be used to solve problems involving rates and percentages</p>
+      <ol id=ListOne>
+      <li><mark><strong>Definitions</strong></mark></li><ul><li><em>Unit Rate: A <strong>ratio</strong> with a denominator as <strong>one</strong></em></li> <li><em>Proportion: <strong>Equation</strong> in which two <strong>ratios</strong> are set equal to other</em></li></ul><br>
+      <li><mark><strong>Application of Unit Rates in Budgeting</strong></mark><ul><li><em>When given two ratios, convert both to unit rates and compare the numerator.</em></li><li>For example, if you were given two rates for product in $/g, you could convert both to # of dollars for each gram. </li></ul></li><br><li><mark><strong>Unit Rate Calculator</strong><ul><br><a href="https://www.online-python.com/F8ILc1t7bq" target="_blank">Check out this calculator created on python which determines the best option between 2 or more products for your dollar using the unit rate</a></ul></mark></li>
+      </ol>
       </section>
       
       <section id="code">
         <h1>Interactive code with Budgeting</h1>
         <p>Now you can view this concepts incorporated in a summative code I have created in Python!</p>
-        <a href="https://www.online-python.com/wNHYyoKUEz" target="_blank">Click on this link to view the code for the calculator</a>
-        <h3>Description:</h3> <p> Budgeting Calculator that organizes the user's inputs based on their expenses. <br><br><em>The program used code from both the interest and gross => net income calculators already shown on this website</em></p>
+        <a href="https://www.online-python.com/fwRnZk8xSs" target="_blank">Click on this link to view the code for the calculator</a>
+        <h3>Description:</h3> <p> Budgeting Calculator that organizes the user's inputs based on their expenses. <br><br><em>The program used code from both the interest and gross => net income calcultors' already shown on this website</em></p>
         <img src="https://bairesdev.mo.cloudinary.net/blog/2023/06/Is-Python-good-for-software-development.jpg?tx=w_3840,q_auto" id="Image3">
       </section>
     </main>
